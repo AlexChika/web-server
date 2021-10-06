@@ -102,7 +102,8 @@ nav .nav-display {
 .nav-socials h4 {
   animation: hideNav 6s linear;
 }
-.nav-socials h4 span {
+.nav-socials h4 span,
+li span {
   color: red;
   font-family: "Courier New", Courier, monospace;
 }
@@ -140,7 +141,7 @@ nav .nav-display {
     transition: all 0.3s linear;
   }
   nav .nav-toggle {
-    height: 10em;
+    height: 11em;
   }
 
   .nav-display .nav-search {
@@ -164,22 +165,19 @@ nav .nav-display {
   }
 }
 @media (max-width: 650px) {
-  .first-bg {
-    background-size: cover;
-  }
   .card {
-    width: 100% !important;
+    width: 80% !important;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 425px) {
   nav .nav-toggle {
-    height: 13em;
+    height: 14.8em;
   }
   .nav-display .nav-search {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    justify-self: center;
   }
   .nav-search section {
     width: 80%;
@@ -199,16 +197,16 @@ nav .nav-display {
 }
 .main-transparent {
   background-color: rgba(234, 237, 253, 0.888);
-  text-shadow: 2px 2px 2px grey;
+  text-shadow: 3px 3px 6px grey;
 }
 .first {
   background-color: #e5e5e5;
 }
 .first-bg {
   background: url(img/bg1.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: round;
-  min-height: 90vh;
+  min-height: 85vh;
 }
 /* Section 3 */
 .sec3 {
