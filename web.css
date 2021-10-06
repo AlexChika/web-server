@@ -141,7 +141,7 @@ li span {
     transition: all 0.3s linear;
   }
   nav .nav-toggle {
-    height: 10em;
+    height: 11em;
   }
 
   .nav-display .nav-search {
@@ -165,22 +165,19 @@ li span {
   }
 }
 @media (max-width: 650px) {
-  /* .first-bg {
-    background-size: cover;
-  } */
   .card {
-    width: 100% !important;
+    width: 80% !important;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 425px) {
   nav .nav-toggle {
-    height: 13em;
+    height: 14.8em;
   }
   .nav-display .nav-search {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    justify-self: center;
   }
   .nav-search section {
     width: 80%;
