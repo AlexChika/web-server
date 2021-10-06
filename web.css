@@ -102,7 +102,8 @@ nav .nav-display {
 .nav-socials h4 {
   animation: hideNav 6s linear;
 }
-.nav-socials h4 span {
+.nav-socials h4 span,
+li span {
   color: red;
   font-family: "Courier New", Courier, monospace;
 }
@@ -164,9 +165,9 @@ nav .nav-display {
   }
 }
 @media (max-width: 650px) {
-  .first-bg {
+  /* .first-bg {
     background-size: cover;
-  }
+  } */
   .card {
     width: 100% !important;
   }
@@ -199,14 +200,14 @@ nav .nav-display {
 }
 .main-transparent {
   background-color: rgba(234, 237, 253, 0.888);
-  text-shadow: 2px 2px 2px grey;
+  text-shadow: 3px 3px 6px grey;
 }
 .first {
   background-color: #e5e5e5;
 }
 .first-bg {
   background: url(img/bg1.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: round;
   min-height: 90vh;
 }
