@@ -15,6 +15,9 @@
     margin: 0 auto;
   }
 }
+.active {
+  border-bottom: 2px solid #9ba0c0;
+}
 .brand {
   font-family: "Courier New", Courier, monospace;
 }
