@@ -3,165 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*        NAV      */
-
-/* hello Mentors I couldnt style  My Nav with Bootstrap. I am still practicing */
-/*     NAV     */
-nav .nav-socials {
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  background-color: #c1c1ff;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-.nav-socials h4 {
-  min-width: 9em;
-}
-.nav-socials button {
-  display: none;
-  width: 0;
-}
-
-.nav-socials ul {
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
-}
-.nav-socials a,
-.nav-socials li,
-.nav-display a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1em;
-  list-style: none;
-}
-
-nav .nav-display {
-  margin-top: 1.5em;
-  padding-top: 1em;
-  display: flex;
-  height: auto;
-  justify-content: space-around;
-  align-items: center;
-  color: #fff;
-  background-color: #c1c1ff;
-  padding-bottom: 1em;
-}
-
-.nav-display .nav-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 20%;
-  min-width: 10em;
-  height: 3.5em;
-}
-.nav-links a {
-  margin: 0.5em;
-}
-.nav-display .nav-search {
-  margin-top: 1em;
-  display: flex;
-  justify-content: space-between;
-  width: 60%;
-}
-.nav-search section {
-  height: 3em;
-  width: 60%;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-.nav-search section input {
-  width: 90%;
-  height: 100%;
-  border: none;
-  outline: none;
-  background-color: transparent;
-}
-.nav-search section i {
-  text-align: right;
-  width: 5%;
-}
-.nav-search input::placeholder {
-  color: #fff;
-}
-.nav-search button {
-  color: greenyellow;
-  height: 3em;
-  border: none;
-  outline: none;
-  width: 30%;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-.nav-socials h4 {
-  animation: hideNav 6s linear;
-}
-.nav-socials h4 span,
-li span {
-  color: red;
-  font-family: "Courier New", Courier, monospace;
-}
-@keyframes hideNav {
-  0% {
-    margin-top: 2.5em;
-    color: yellow;
-  }
-  100% {
-    margin-top: -2.5em;
-    display: none;
-    color: #fff;
-  }
-}
-/* END OF NAV */
-/* MEDIA QUERIES FOR NAV*/
-@media screen and (max-width: 780px) {
-  .nav-socials h4 {
-    min-width: 7em;
-  }
-  .nav-socials button {
-    display: inline;
-    outline: none;
-    border: none;
-    width: 15%;
-    color: greenyellow;
-    background-color: transparent;
-  }
-  nav .nav-display {
-    flex-direction: column;
-    overflow: hidden;
-    height: 0;
-    padding-top: 0;
-    margin-top: 1em;
-    transition: all 0.3s linear;
-  }
-  nav .nav-toggle {
-    height: 11em;
-  }
-
-  .nav-display .nav-search {
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    justify-self: center;
-  }
-  .nav-search section {
-    width: 70%;
-    margin: 0.5em auto;
-  }
-  .nav-search button {
-    width: 20%;
-    margin: 0.5em auto;
-  }
-  .nav-display .nav-links {
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+@media (max-width: 760px) {
+  .card {
+    width: 65% !important;
+    margin: 0 auto;
   }
 }
 @media (max-width: 650px) {
@@ -170,28 +15,13 @@ li span {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 425px) {
-  nav .nav-toggle {
-    height: 14.8em;
-  }
-  .nav-display .nav-search {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .nav-search section {
-    width: 80%;
-    margin: 0.5em auto;
-  }
-  .nav-display .nav-links {
-    flex-direction: row;
-    width: 100%;
-  }
+.brand {
+  font-family: "Courier New", Courier, monospace;
 }
-/* END OF NAV */
-.active {
-  border-bottom: 2px solid #eaedfd;
+.show {
+  text-shadow: 3px 3px solid grey;
 }
+
 .main {
   background-color: #eaedfd;
 }
