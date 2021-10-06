@@ -1,1 +1,5 @@
-'favour is here with me' 
+"Kode Camp Stage 4 Task"
+" Main Branch "
+" In This Branch... The Navbar was styled without Boostrap."
+"In the master Branch, Boostrap was used for the whole sections."
+"The Hosted Branch is the master branch."
