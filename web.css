@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 @media (max-width: 760px) {
   .card {
     width: 65% !important;
@@ -12,7 +7,6 @@
 @media (max-width: 650px) {
   .card {
     width: 80% !important;
-    margin: 0 auto;
   }
 }
 .active {
@@ -22,7 +16,7 @@
   font-family: "Courier New", Courier, monospace;
 }
 .show {
-  text-shadow: 3px 3px solid grey;
+  text-shadow: 3px 3px 6px solid grey;
 }
 .main {
   background-color: #eaedfd;
@@ -41,74 +35,14 @@
   min-height: 85vh;
 }
 .index {
-  z-index: -100;
+  z-index: -5;
 }
-.circle1 {
-  bottom: 5%;
-  right: 5%;
-}
-.circle2 {
-  bottom: 25%;
-  right: 10%;
-}
-
-.circle3 {
-  bottom: 11%;
-  right: 25%;
-}
-.circle4 {
-  top: 5%;
-  left: 5%;
-}
-.circle5 {
-  top: 5%;
-  left: 16%;
-}
-.circle6 {
-  top: 15%;
-  left: 10%;
-}
-.sec3 hr:last-of-type {
-  top: 0%;
-}
-.sec3 hr:first-of-type {
-  bottom: 0%;
+.indexx {
+  z-index: -10;
 }
 .sec3 .card {
   margin-top: -15%;
 }
-/* Services section */
-/* section 2 of services */
-.service-sec2 {
-  position: relative;
-  z-index: -100;
-}
-
-.bg-svg {
-  z-index: -50;
-}
-.service-img-con1 {
-  position: absolute;
-  margin: 0 auto;
-  top: 0;
-  left: 0;
-}
-.service-img-con2 {
-  position: absolute;
-  float: right;
-  margin: 0 auto;
-  bottom: 0;
-  right: 0;
-}
-.card {
-  width: 49%;
-}
-img {
-  width: 100%;
-  height: 100%;
-}
-/* ......Fags section ......*/
-
 .hide {
   overflow: hidden;
   height: 0;
@@ -117,13 +51,6 @@ img {
 .faq input:checked + .hide {
   height: 13em;
 }
-/* sec2 */
-.faq-card {
-  width: 90%;
-  height: 27rem;
-  margin: 0 auto;
-}
-/*....... Contact Us Section.... */
 .contact-sec {
   background: url(./img/telecom.svg);
   background-repeat: no-repeat;
