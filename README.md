@@ -1,1 +1,5 @@
-'favour is here with me' 
+"Kode Camp Stage 4 Task"
+" Master Branch , the hosted branch"
+" In This Branch... The Navbar is Boostrap enabled."
+"In this master Branch, Boostrap was used for the whole sections."
+"This Branch is the hosted branch."
